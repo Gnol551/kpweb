@@ -80,11 +80,11 @@
   padding-right: 0px;
 }
 .about {
-  height: 80vh;
+  height: 85vh;
 }
 .about h1 {
-  margin-top: 10%;
-  margin-bottom: 5% ;
+  margin-top: 5%;
+  margin-bottom: 5%;
   margin-left: 15%;
 }
 .box-about {
@@ -125,18 +125,18 @@ hr {
     rgba(0, 0, 0, 0),
     rgba(0, 0, 0, 0.75),
     rgba(0, 0, 0, 0)
-  );margin-bottom: 100px;
+  );
+  margin-bottom: 100px;
 }
 .exp {
-  height: 200vh;
+  height: 120vh;
   background: rgb(236, 236, 236);
   display: flex;
   justify-content: center;
 }
-.box-exp{
+.box-exp {
   width: 70%;
-  margin: 7% 15% ;
-  
+  margin: 7% 15%;
 }
 .box-exp hr {
   border: 0;
@@ -146,18 +146,102 @@ hr {
     rgba(0, 0, 0, 0),
     rgba(0, 0, 0, 0.75),
     rgba(0, 0, 0, 0)
-  );margin-bottom: 50px;
-}
-.box-exp h1{
- margin-bottom: 7%;
-}
-.box-exp h2{
+  );
   margin-bottom: 50px;
- }
- .box-exp p{
+}
+.box-exp h1 {
+  margin-bottom: 7%;
+}
+.box-exp h2 {
+  margin-bottom: 50px;
+}
+.box-exp p {
   line-height: 30px;
   text-align: justify;
   padding-bottom: 10px;
   font-style: italic;
   font-size: 18px;
- }
+}
+.box-exp section h2 {
+  margin-top: 10%;
+}
+.box-exp section div p {
+  float: left;
+  width: 30%;
+  margin: 0;
+}
+.box-exp section div div {
+  float: left;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+.box-exp section div div p {
+  float: left;
+  width: 70%;
+  text-align: left;
+}
+.box-exp section div {
+  margin-bottom: 4%;
+}
+.main-2 {
+  background-image: url(../public/img/forestblack.jpg);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  margin: 0px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+.Gallery-box {
+  height: 100vh;
+}
+.container-box-gallery {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.container-box-gallery div {
+  margin-left: 20px;
+  height: 120px;
+  width: 13%;
+}
+.container-box-gallery img {
+  width: 100%;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  border: 1px solid rgb(224, 224, 224);
+  cursor: pointer;
+}
+.container-box-gallery img:hover {
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  -ms-filter: grayscale(0%);
+  -o-filter: grayscale(0%);
+}
+.img-click {
+height: 100vh !important;
+width: 100% !important;
+  background-color: rgba(243, 243, 243, 0.322);
+  position: absolute !important ;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  margin: 0 !important;
+}
+.img-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-click img {
+  height: auto;
+  width: 90%;
+
+}

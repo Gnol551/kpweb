@@ -7,7 +7,7 @@ export default function Experience() {
         <div>
           <h2>Những công việc đầu tiên </h2>
           <p>
-            Thời Long vừa tốt nghiệp xong, mất cả định hướng, nhớ lại điều đó
+            Lúc Long vừa tốt nghiệp xong, mất cả định hướng, nhớ lại điều đó
             thật đáng sợ đối với Long, không biết mình thích gì và muốn làm gì.
           </p>
           <p>
@@ -21,8 +21,25 @@ export default function Experience() {
             nhiều hơn và thật may mắn khi có anh mình hướng dẫn thêm về ngành IT
             cụ thể hơn là về Web Deverloper...
           </p>
-          <p>...và giờ Long là Coder</p>
         </div>
+        <section>
+          <h2>Timeline Kinh nghiệm </h2>
+          <div>
+            <p>Tháng 6/2019 - Tháng 3/2020</p>
+            <div>
+              <p>CTY BĐS Đất xanh plus</p>
+              <p>Nhân viên kinh doanh</p>
+            </div>
+          </div>
+          <div>
+            <p>Tháng 3/2022 - Tháng 10/2022</p>
+            <div>
+              <p>CTY TNHH Dịch vụ Quảng cáo Minh Thuận</p>
+              <p>Intern Front-end Deverloper</p>
+            </div>
+          </div>
+          </section>
+
       </div>
     </div>
   );

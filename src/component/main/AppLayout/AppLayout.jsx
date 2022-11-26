@@ -1,5 +1,6 @@
 import Aboutme from "../Aboutme.jsx/Aboutme";
 import Experience from "../Experience.jsx/Experience";
+import Gallery from "../Gallery.jsx/Gallery";
 import Header from "../Header.jsx/Header";
 import Main from "../Home.jsx/Main";
 
@@ -9,7 +10,8 @@ export default function AppLayout() {
             <Main />
             <Header />
             <Aboutme />
-            <Experience/>
+            <Experience />
+            <Gallery/>
         </>
     )
 }
