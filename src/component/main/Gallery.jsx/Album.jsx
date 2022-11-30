@@ -1,51 +1,37 @@
 import { useState } from "react";
+import FsLightbox from "fslightbox-react";
 
 export default function Album() {
-  const [open, setOpen] = useState(false);
+  const [toggler, setToggler] = useState(false);
   return (
     <>
       <div className="container-box-gallery">
-        <div>
+        <div className="img1">
           <img
-            src="../img/web1.png"
+            src="./img/web1.png"
             alt=""
-            onClick={() => {
-                setOpen(!open);
-            }
-            }
+            onClick={() => setToggler(!toggler)}
+            className="img-color"
           />
-          {open === true ? (
-            <div className="img-click">
-              <div className="img-box">
-                <img src="../img/web1.png" alt="" />
-                <p>adad</p>
-                <p>ádasd</p>
-              </div>
-            </div>
-          ) : (
-            <></>
-          )}
-          <p>Thuê Xe du lịch - Vn </p>
+          <FsLightbox toggler={toggler} sources={["./img/web1.png"]} />
         </div>
-        <div>
+        <div className="img2">
           <img
-            src="../img/web2.png"
+            src="./img/web2.png"
             alt=""
-            onClick={() => {
-              setOpen(!open);
-            }}
+            onClick={() => setToggler(!toggler)}
+            className="img-color"
           />
-          <p>Cap Store</p>
+          <FsLightbox toggler={toggler} sources={["./img/web2.png"]} />
         </div>
-        <div>
+        <div className="img3">
           <img
-            src="../img/web3.png"
+            src="./img/web3.png"
             alt=""
-            onClick={() => {
-              setOpen(!open);
-            }}
+            onClick={() => setToggler(!toggler)}
+            className="img-color"
           />
-          <p>Nhôm kính Aa-Windown</p>
+          <FsLightbox toggler={toggler} sources={["./img/web3.png"]} />
         </div>
       </div>
     </>

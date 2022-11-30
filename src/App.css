@@ -203,12 +203,7 @@ hr {
   flex-direction: row;
   position: relative;
 }
-.container-box-gallery div {
-  margin-left: 20px;
-  height: 120px;
-  width: 13%;
-}
-.container-box-gallery img {
+.container-box-gallery .img-color {
   width: 100%;
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
@@ -218,30 +213,10 @@ hr {
   border: 1px solid rgb(224, 224, 224);
   cursor: pointer;
 }
-.container-box-gallery img:hover {
+.container-box-gallery .img-color:hover {
   filter: grayscale(0%);
   -webkit-filter: grayscale(0%);
   -moz-filter: grayscale(0%);
   -ms-filter: grayscale(0%);
   -o-filter: grayscale(0%);
-}
-.img-click {
-height: 100vh !important;
-width: 100% !important;
-  background-color: rgba(243, 243, 243, 0.322);
-  position: absolute !important ;
-  top: 0;
-  left: 0;
-  z-index: 1000;
-  margin: 0 !important;
-}
-.img-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.img-click img {
-  height: auto;
-  width: 90%;
-
 }

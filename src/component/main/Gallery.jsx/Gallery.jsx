@@ -5,7 +5,8 @@ export default function Gallery() {
         <>
             <div className="main-2"></div>
             <div className="Gallery-box" id="gallery">
-<Album/>
+                <Album />
+                
             </div>
         </>
     )
