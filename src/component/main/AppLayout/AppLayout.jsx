@@ -1,4 +1,5 @@
 import Aboutme from "../Aboutme.jsx/Aboutme";
+import Contact from "../Contact.jsx/Contact";
 import Experience from "../Experience.jsx/Experience";
 import Gallery from "../Gallery.jsx/Gallery";
 import Header from "../Header.jsx/Header";
@@ -11,7 +12,8 @@ export default function AppLayout() {
             <Header />
             <Aboutme />
             <Experience />
-            <Gallery/>
+            <Gallery />
+            <Contact/>
         </>
     )
 }
