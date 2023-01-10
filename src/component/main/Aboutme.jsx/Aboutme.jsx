@@ -5,20 +5,14 @@ export default function Aboutme() {
       <div className="box-about">
               <div>
                   <hr />
-          <p className="title-about">Long sinh ra và lớn lên tại quận 6 - Chợ Lớn - Sài Gòn.</p>
+          <p className="title-about">Long sinh ra và lớn lên tại Sài Gòn.</p>
 
           <p>
             Trải qua tuổi thơ đầy đủ sắc màu cùng với gia đình và bè bạn. Tốt
             nghiệp THPT Võ Văn Kiệt 2016-2018.
           </p>
-
           <p>
-            Những lúc rảnh rỗi Long thường dành thời gian cho việc nghe nhạc &
-            cả tập đàn Organ là nhiều.
-          </p>
-
-          <p>
-            Đôi khi Long thích du lịch đây đó, quay phim về những nơi mình đã đi
+            Long thích du lịch đây đó, quay phim về những nơi mình đã đi
             và muốn tìm hiểu thêm về nền ẩm thực nước nhà lẫn ngoài nước. Long
             muốn truyền tải những món ngon, những nơi đẹp đến tất cả mọi người.
             Long cũng là một người thích nghiên cứu nhiều lĩnh vực khác, cẩn
