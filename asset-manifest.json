@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/kpweb/static/css/main.aaa9db4e.css",
+    "main.js": "/kpweb/static/js/main.dd74596c.js",
+    "static/js/787.37ee82d5.chunk.js": "/kpweb/static/js/787.37ee82d5.chunk.js",
+    "static/media/forestblack.jpg": "/kpweb/static/media/forestblack.af45125c16af458baa7f.jpg",
+    "static/media/forest.jpg": "/kpweb/static/media/forest.399fd1a63f495a2d70f1.jpg",
+    "index.html": "/kpweb/index.html",
+    "main.aaa9db4e.css.map": "/kpweb/static/css/main.aaa9db4e.css.map",
+    "main.dd74596c.js.map": "/kpweb/static/js/main.dd74596c.js.map",
+    "787.37ee82d5.chunk.js.map": "/kpweb/static/js/787.37ee82d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aaa9db4e.css",
+    "static/js/main.dd74596c.js"
+  ]
+}
