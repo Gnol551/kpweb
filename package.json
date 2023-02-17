@@ -1,5 +1,6 @@
 {
   "homepage": "http://Gnol551.github.io/kpweb",
+  "proxy": "http://localhost:5000",
   "name": "kpweb",
   "version": "0.1.0",
   "private": true,
